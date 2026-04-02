@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrateDigger - Vinyl DJ Catalog & Set Builder</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0a0a0a; color: #e4e4e7; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+    .container { max-width: 640px; text-align: center; padding: 40px 20px; }
+    .logo { font-size: 48px; margin-bottom: 16px; }
+    h1 { font-size: 36px; font-weight: 800; margin-bottom: 8px; }
+    h1 span { color: #ea580c; }
+    .tagline { color: #a1a1aa; font-size: 18px; margin-bottom: 32px; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 40px; text-align: left; }
+    .feature { background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 20px; }
+    .feature h3 { color: #ea580c; font-size: 14px; margin-bottom: 6px; }
+    .feature p { color: #a1a1aa; font-size: 13px; line-height: 1.5; }
+    .credits { color: #52525b; font-size: 12px; margin-top: 40px; }
+    .credits a { color: #71717a; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">&#127926;</div>
+    <h1>Crate<span>Digger</span></h1>
+    <p class="tagline">Vinyl DJ catalog & set builder for DJs who spin wax.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Collection Manager</h3>
+        <p>Catalog your vinyl with full metadata — BPM, key, mood, energy per track.</p>
+      </div>
+      <div class="feature">
+        <h3>Smart Set Builder</h3>
+        <p>Build sets with transition scoring based on BPM, harmonic key, and energy flow.</p>
+      </div>
+      <div class="feature">
+        <h3>Camelot Wheel</h3>
+        <p>Harmonic mixing made easy with Camelot codes on every track.</p>
+      </div>
+      <div class="feature">
+        <h3>Audio Analysis</h3>
+        <p>Upload audio files for automatic BPM and key detection.</p>
+      </div>
+    </div>
+    <p class="credits">
+      Built with data from <a href="https://getsongbpm.com" target="_blank">GetSongBPM.com</a>
+    </p>
+  </div>
+</body>
+</html>
